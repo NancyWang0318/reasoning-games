@@ -3,6 +3,25 @@
 import tkinter as tk
 from tkinter import messagebox
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 遊戲資料結構
 class Case:
     def __init__(self, description, choices):
