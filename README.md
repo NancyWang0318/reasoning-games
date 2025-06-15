@@ -6,6 +6,9 @@
 隨著玩家的不同選擇，結局也會有所不同
 想讓幕後黑手繩之以法嗎?!
 快來挑戰吧!
+#
+#
+
 # 遊戲資料結構
 class Case:
     def __init__(self, description, choices):
