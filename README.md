@@ -6,16 +6,14 @@
 隨著玩家的不同選擇，結局也會有所不同
 想讓幕後黑手繩之以法嗎?!
 快來挑戰吧!
-#
-#
 
-# 遊戲資料結構
+ 遊戲資料結構
 class Case:
     def __init__(self, description, choices):
         self.description = description
         self.choices = choices  # [(選項文字, 下一步key)]
 
-# 案件與分支設計（多案件串連）
+ 案件與分支設計（多案件串連）
 game_cases = {
     # 案件一：富豪家中失竊案（主線初現、副線真兇明確）
     'start': Case(
